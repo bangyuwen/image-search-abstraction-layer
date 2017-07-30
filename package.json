@@ -1,0 +1,23 @@
+{
+  "name": "image-search-abstraction-layer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "BangYuWen <bangyuwen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "es6-promise": "^4.1.1",
+    "express": "^4.15.3",
+    "isomorphic-fetch": "^2.2.1",
+    "mongoose": "^4.11.4",
+    "mongoose-auto-increment": "^5.0.1"
+  },
+  "scripts": {
+    "start": "babel-node index.js --presets es2015,stage-2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0"
+  }
+}
