@@ -33,6 +33,10 @@ app.get('/api/latest', (req, res) => {
   })
 })
 
+app.get("/", function (request, response) {
+  response.sendFile(__dirname + '/index.html');
+})
+
 const server = app.listen(process.env.port || 8080, () => {
   const port = server.address().port
   console.log(`App is now running on port${port}`)
